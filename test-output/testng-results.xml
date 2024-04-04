@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-03T16:36:52 IST" name="Default suite" finished-at="2024-04-03T16:37:37 IST" duration-ms="45046">
+    <groups>
+    </groups>
+    <test started-at="2024-04-03T16:36:52 IST" name="Default test" finished-at="2024-04-03T16:37:37 IST" duration-ms="45046">
+      <class name="Com.Testcases.TrialTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:36:52 IST" name="StartReport" finished-at="2024-04-03T16:36:52 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:36:52 IST" name="setup" finished-at="2024-04-03T16:37:15 IST" duration-ms="23479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TitleValidation()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:37:15 IST" name="TitleValidation" finished-at="2024-04-03T16:37:16 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:37:16 IST" name="teardown" finished-at="2024-04-03T16:37:16 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:37:18 IST" name="setup" finished-at="2024-04-03T16:37:34 IST" duration-ms="16702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TrialLoginTest(java.lang.String,java.lang.String)[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:37:34 IST" name="TrialLoginTest" data-provider="LoginData" finished-at="2024-04-03T16:37:35 IST" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrialLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:37:35 IST" name="teardown" finished-at="2024-04-03T16:37:36 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:Com.Testcases.TrialTest@2cf3d63b]" started-at="2024-04-03T16:37:36 IST" name="endreport" finished-at="2024-04-03T16:37:37 IST" duration-ms="1034" status="FAIL">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Failed to open file:/C:/Users/ajay7/eclipse-workspace/POM/report.html. Error message: The system cannot find the file specified.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Failed to open file:/C:/Users/ajay7/eclipse-workspace/POM/report.html. Error message: The system cannot find the file specified.
+
+at java.desktop/sun.awt.windows.WDesktopPeer.ShellExecute(WDesktopPeer.java:115)
+at java.desktop/sun.awt.windows.WDesktopPeer.browse(WDesktopPeer.java:101)
+at java.desktop/java.awt.Desktop.browse(Desktop.java:533)
+at Com.Testcases.TrialTest.endreport(TrialTest.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
+at org.testng.TestRunner.afterRun(TestRunner.java:904)
+at org.testng.TestRunner.run(TestRunner.java:622)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- Com.Testcases.TrialTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
