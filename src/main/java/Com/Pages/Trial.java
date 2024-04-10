@@ -11,6 +11,7 @@ public class Trial extends BaseTest{
 	WebElement Password = driver.findElement(By.name("password"));
 	WebElement LoginBtn = driver.findElement(By.xpath("//button[@type='submit']"));
 	
+	//Github actions checking
 	public void HomePageLogin(String un, String pwd) {
 		Username.sendKeys(un);
 		Password.sendKeys(pwd);
