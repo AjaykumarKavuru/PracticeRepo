@@ -16,7 +16,7 @@ public class BaseTest {
 
 	public void Initialization() throws IOException {
 		prop = new Properties();
-		FileInputStream fi = new FileInputStream("\\Users\\ajay7\\eclipse-workspace\\POM\\src\\main\\java\\Com\\Config\\config.properties");
+		FileInputStream fi = new FileInputStream("C:\\Users\\ajay7\\eclipse-workspace\\POM\\src\\main\\resources\\DataFiles\\Config\\config.properties");
 		prop.load(fi);
 	}
 	

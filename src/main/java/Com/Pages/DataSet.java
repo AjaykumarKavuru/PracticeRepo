@@ -10,7 +10,7 @@ public class DataSet extends BaseTest{
 	@DataProvider(name = "LoginData")
 	public String[][] LogintoHomePage() throws IOException {
 		
-		String Path = "C:\\Users\\ajay7\\eclipse-workspace\\POM\\src\\test\\resources\\TrailData.xlsx";
+		String Path = "C:\\Users\\ajay7\\eclipse-workspace\\POM\\src\\main\\resources\\DataFiles\\TrailData.xlsx";
 
 //		String Path = System.getProperty("user.dir")+"/src/test/resources/TrailData.xlsx";
 		

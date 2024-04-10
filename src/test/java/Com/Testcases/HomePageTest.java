@@ -38,8 +38,8 @@ HomePage homepage;
 	
 	@Test
 	public void ExcelValidation() throws IOException {
-		String Path = "C:\\Users\\ajay7\\eclipse-workspace\\POM\\src\\main\\resources\\"
-				+ "DataFiles\\Test_Data.xlsx";
+		String Path = "C:\\Users\\ajay7\\eclipse-workspace\\POM\\src\\"
+				+ "main\\resources\\DataFiles\\TrailData.xlsx";
 		ExcelUtilities extrautil = new ExcelUtilities(Path);
 		
 	}
